@@ -7,7 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F21B7A99198F1B5800433676 /* BSDArrayEnumerate.m in Sources */ = {isa = PBXBuildFile; fileRef = F21B7A98198F1B5800433676 /* BSDArrayEnumerate.m */; };
+		42F2A0241C73AD3C00B6E395 /* BSDArrayAccum.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A00B1C73AD3C00B6E395 /* BSDArrayAccum.m */; };
+		42F2A0251C73AD3C00B6E395 /* BSDArrayBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A00D1C73AD3C00B6E395 /* BSDArrayBox.m */; };
+		42F2A0261C73AD3C00B6E395 /* BSDArrayClassify.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A00F1C73AD3C00B6E395 /* BSDArrayClassify.m */; };
+		42F2A0271C73AD3C00B6E395 /* BSDArrayElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0111C73AD3C00B6E395 /* BSDArrayElement.m */; };
+		42F2A0281C73AD3C00B6E395 /* BSDArrayEnumerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0131C73AD3C00B6E395 /* BSDArrayEnumerate.m */; };
+		42F2A0291C73AD3C00B6E395 /* BSDArrayFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0151C73AD3C00B6E395 /* BSDArrayFilter.m */; };
+		42F2A02A1C73AD3C00B6E395 /* BSDArrayLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0171C73AD3C00B6E395 /* BSDArrayLength.m */; };
+		42F2A02B1C73AD3C00B6E395 /* BSDArrayNormalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0191C73AD3C00B6E395 /* BSDArrayNormalize.m */; };
+		42F2A02C1C73AD3C00B6E395 /* BSDArrayPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A01B1C73AD3C00B6E395 /* BSDArrayPack.m */; };
+		42F2A02D1C73AD3C00B6E395 /* BSDArrayPrepend.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A01D1C73AD3C00B6E395 /* BSDArrayPrepend.m */; };
+		42F2A02E1C73AD3C00B6E395 /* BSDArraySerialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A01F1C73AD3C00B6E395 /* BSDArraySerialize.m */; };
+		42F2A02F1C73AD3C00B6E395 /* BSDArraySort.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0211C73AD3C00B6E395 /* BSDArraySort.m */; };
+		42F2A0301C73AD3C00B6E395 /* BSDSplitArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0231C73AD3C00B6E395 /* BSDSplitArray.m */; };
+		42F2A0331C73ADB500B6E395 /* BSDPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0321C73ADB500B6E395 /* BSDPTest.m */; };
+		42F2A0471C73ADFB00B6E395 /* BSDBasicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0361C73ADFB00B6E395 /* BSDBasicAnimation.m */; };
+		42F2A0481C73ADFB00B6E395 /* BSDColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0381C73ADFB00B6E395 /* BSDColor.m */; };
+		42F2A0491C73ADFB00B6E395 /* BSDFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A03A1C73ADFB00B6E395 /* BSDFont.m */; };
+		42F2A04A1C73ADFB00B6E395 /* BSDImageBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A03C1C73ADFB00B6E395 /* BSDImageBlur.m */; };
+		42F2A04B1C73ADFB00B6E395 /* BSDImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A03E1C73ADFB00B6E395 /* BSDImageView.m */; };
+		42F2A04C1C73ADFB00B6E395 /* BSDLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0401C73ADFB00B6E395 /* BSDLabel.m */; };
+		42F2A04D1C73ADFB00B6E395 /* BSDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0421C73ADFB00B6E395 /* BSDLayer.m */; };
+		42F2A04E1C73ADFB00B6E395 /* BSDVideoStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0441C73ADFB00B6E395 /* BSDVideoStream.m */; };
+		42F2A04F1C73ADFB00B6E395 /* BSDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0461C73ADFB00B6E395 /* BSDView.m */; };
+		42F2A05B1C73AE8700B6E395 /* BSDBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0521C73AE8700B6E395 /* BSDBuffer.m */; };
+		42F2A05C1C73AE8700B6E395 /* BSDSpeedLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0541C73AE8700B6E395 /* BSDSpeedLimit.m */; };
+		42F2A05D1C73AE8700B6E395 /* BSDTestVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0561C73AE8700B6E395 /* BSDTestVariable.m */; };
+		42F2A05E1C73AE8700B6E395 /* BSDValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0581C73AE8700B6E395 /* BSDValue.m */; };
+		42F2A05F1C73AE8700B6E395 /* BSDVelocity.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A05A1C73AE8700B6E395 /* BSDVelocity.m */; };
+		42F2A0681C73AEBF00B6E395 /* BSDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0621C73AEBF00B6E395 /* BSDGenerator.m */; };
+		42F2A0691C73AEBF00B6E395 /* BSDMotionGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0641C73AEBF00B6E395 /* BSDMotionGenerator.m */; };
+		42F2A06A1C73AEBF00B6E395 /* BSDTouchGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A0671C73AEBF00B6E395 /* BSDTouchGenerator.m */; };
+		42F2A06D1C73AF4C00B6E395 /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2A06C1C73AF4C00B6E395 /* UIImageEffects.m */; };
 		F2436922197499DF00512371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2436921197499DF00512371 /* Foundation.framework */; };
 		F2436924197499DF00512371 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2436923197499DF00512371 /* CoreGraphics.framework */; };
 		F2436926197499DF00512371 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2436925197499DF00512371 /* UIKit.framework */; };
@@ -23,19 +54,9 @@
 		F2436946197499DF00512371 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2436925197499DF00512371 /* UIKit.framework */; };
 		F243694E197499DF00512371 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F243694C197499DF00512371 /* InfoPlist.strings */; };
 		F2436950197499DF00512371 /* BSDPatchExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F243694F197499DF00512371 /* BSDPatchExampleTests.m */; };
-		F26136FB198ED7520018F361 /* BSDArraySerialize.m in Sources */ = {isa = PBXBuildFile; fileRef = F2613657198ED7520018F361 /* BSDArraySerialize.m */; };
-		F26136FC198ED7520018F361 /* BSDArrayElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F2613659198ED7520018F361 /* BSDArrayElement.m */; };
-		F26136FD198ED7520018F361 /* BSDArrayFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = F261365B198ED7520018F361 /* BSDArrayFilter.m */; };
-		F26136FE198ED7520018F361 /* BSDArrayLength.m in Sources */ = {isa = PBXBuildFile; fileRef = F261365D198ED7520018F361 /* BSDArrayLength.m */; };
-		F26136FF198ED7520018F361 /* BSDArrayPack.m in Sources */ = {isa = PBXBuildFile; fileRef = F261365F198ED7520018F361 /* BSDArrayPack.m */; };
-		F2613700198ED7520018F361 /* BSDArrayNormalize.m in Sources */ = {isa = PBXBuildFile; fileRef = F2613661198ED7520018F361 /* BSDArrayNormalize.m */; };
-		F2613701198ED7520018F361 /* BSDArrayPrepend.m in Sources */ = {isa = PBXBuildFile; fileRef = F2613663198ED7520018F361 /* BSDArrayPrepend.m */; };
-		F2613703198ED7520018F361 /* BSDArraySort.m in Sources */ = {isa = PBXBuildFile; fileRef = F2613667198ED7520018F361 /* BSDArraySort.m */; };
-		F2613704198ED7520018F361 /* BSDSplitArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F2613669198ED7520018F361 /* BSDSplitArray.m */; };
 		F2613705198ED7520018F361 /* BSDBang.m in Sources */ = {isa = PBXBuildFile; fileRef = F261366C198ED7520018F361 /* BSDBang.m */; };
 		F2613706198ED7520018F361 /* BSDBangBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F261366E198ED7520018F361 /* BSDBangBox.m */; };
 		F2613707198ED7520018F361 /* NSValue+BSD.m in Sources */ = {isa = PBXBuildFile; fileRef = F2613671198ED7520018F361 /* NSValue+BSD.m */; };
-		F2613708198ED7520018F361 /* BSDArrayClassify.m in Sources */ = {isa = PBXBuildFile; fileRef = F2613674198ED7520018F361 /* BSDArrayClassify.m */; };
 		F2613709198ED7520018F361 /* BSDDictionarySerialize.m in Sources */ = {isa = PBXBuildFile; fileRef = F2613676198ED7520018F361 /* BSDDictionarySerialize.m */; };
 		F261370A198ED7520018F361 /* BSDMapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F2613678198ED7520018F361 /* BSDMapObject.m */; };
 		F261370B198ED7520018F361 /* BSDChange.m in Sources */ = {isa = PBXBuildFile; fileRef = F261367B198ED7520018F361 /* BSDChange.m */; };
@@ -47,8 +68,6 @@
 		F2613711198ED7520018F361 /* BSDSpigot.m in Sources */ = {isa = PBXBuildFile; fileRef = F2613687198ED7520018F361 /* BSDSpigot.m */; };
 		F2613712198ED7520018F361 /* BSDSwap.m in Sources */ = {isa = PBXBuildFile; fileRef = F2613689198ED7520018F361 /* BSDSwap.m */; };
 		F2613713198ED7520018F361 /* BSDValueBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F261368B198ED7520018F361 /* BSDValueBox.m */; };
-		F2613714198ED7520018F361 /* BSDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F261368E198ED7520018F361 /* BSDGenerator.m */; };
-		F2613715198ED7520018F361 /* BSDTouchGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F2613691198ED7520018F361 /* BSDTouchGenerator.m */; };
 		F2613716198ED7520018F361 /* BSDCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2613694198ED7520018F361 /* BSDCreate.m */; };
 		F2613717198ED7520018F361 /* BSDObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F2613696198ED7520018F361 /* BSDObject.m */; };
 		F2613718198ED7520018F361 /* BSDAbs.m in Sources */ = {isa = PBXBuildFile; fileRef = F261369C198ED7520018F361 /* BSDAbs.m */; };
@@ -86,24 +105,10 @@
 		F2613738198ED7520018F361 /* BSDOutlet.m in Sources */ = {isa = PBXBuildFile; fileRef = F26136E2198ED7520018F361 /* BSDOutlet.m */; };
 		F2613739198ED7520018F361 /* BSDPort.m in Sources */ = {isa = PBXBuildFile; fileRef = F26136E4198ED7520018F361 /* BSDPort.m */; };
 		F261373A198ED7520018F361 /* BSDFormatString.m in Sources */ = {isa = PBXBuildFile; fileRef = F26136E7198ED7520018F361 /* BSDFormatString.m */; };
-		F261373B198ED7520018F361 /* BSDColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F26136EA198ED7520018F361 /* BSDColor.m */; };
-		F261373C198ED7520018F361 /* BSDFont.m in Sources */ = {isa = PBXBuildFile; fileRef = F26136EC198ED7520018F361 /* BSDFont.m */; };
-		F261373D198ED7520018F361 /* BSDLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F26136EE198ED7520018F361 /* BSDLabel.m */; };
-		F261373F198ED7520018F361 /* BSDView.m in Sources */ = {isa = PBXBuildFile; fileRef = F26136F2198ED7520018F361 /* BSDView.m */; };
-		F2613740198ED7520018F361 /* BSDBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = F26136F5198ED7520018F361 /* BSDBuffer.m */; };
-		F2613741198ED7520018F361 /* BSDPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F26136F7198ED7520018F361 /* BSDPTest.m */; };
-		F2613742198ED7520018F361 /* BSDTestVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = F26136F9198ED7520018F361 /* BSDTestVariable.m */; };
 		F267F20B198F632B0077773F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F267F20A198F632B0077773F /* CoreMotion.framework */; };
-		F267F20E198F63EB0077773F /* BSDMotionGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F267F20D198F63EB0077773F /* BSDMotionGenerator.m */; };
-		F267F211198F66AC0077773F /* BSDVelocity.m in Sources */ = {isa = PBXBuildFile; fileRef = F267F210198F66AC0077773F /* BSDVelocity.m */; };
 		F267F214198F71190077773F /* BSDPoint3D.m in Sources */ = {isa = PBXBuildFile; fileRef = F267F213198F71190077773F /* BSDPoint3D.m */; };
 		F2832D01197B782F00DD2E73 /* BSDEstimatedPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2832D00197B782F00DD2E73 /* BSDEstimatedPointView.m */; };
-		F28579E119919CAC00F139B7 /* BSDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F28579E019919CAC00F139B7 /* BSDLayer.m */; };
 		F2AFEFBC197B401D00461AE9 /* BSDReferencePointView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AFEFBB197B401D00461AE9 /* BSDReferencePointView.m */; };
-		F2B4D049199B1A9D00EB94AC /* BSDVideoStream.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B4D048199B1A9D00EB94AC /* BSDVideoStream.m */; };
-		F2CCA5BB1991C4FA0067C35A /* BSDBasicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCA5BA1991C4FA0067C35A /* BSDBasicAnimation.m */; };
-		F2CCA5BE1991CAE60067C35A /* BSDArrayAccum.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCA5BD1991CAE60067C35A /* BSDArrayAccum.m */; };
-		F2CCA5C11991E0FB0067C35A /* BSDSpeedLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCA5C01991E0FB0067C35A /* BSDSpeedLimit.m */; };
 		F2CCA5C41991ECEA0067C35A /* BSDSin.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCA5C31991ECEA0067C35A /* BSDSin.m */; };
 		F2CCA5C71991ED8B0067C35A /* BSDCos.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCA5C61991ED8B0067C35A /* BSDCos.m */; };
 		F2CCA5CA1991EDAB0067C35A /* BSDTan.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCA5C91991EDAB0067C35A /* BSDTan.m */; };
@@ -123,9 +128,71 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42F2A00A1C73AD3C00B6E395 /* BSDArrayAccum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArrayAccum.h; sourceTree = "<group>"; };
+		42F2A00B1C73AD3C00B6E395 /* BSDArrayAccum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArrayAccum.m; sourceTree = "<group>"; };
+		42F2A00C1C73AD3C00B6E395 /* BSDArrayBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArrayBox.h; sourceTree = "<group>"; };
+		42F2A00D1C73AD3C00B6E395 /* BSDArrayBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArrayBox.m; sourceTree = "<group>"; };
+		42F2A00E1C73AD3C00B6E395 /* BSDArrayClassify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArrayClassify.h; sourceTree = "<group>"; };
+		42F2A00F1C73AD3C00B6E395 /* BSDArrayClassify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArrayClassify.m; sourceTree = "<group>"; };
+		42F2A0101C73AD3C00B6E395 /* BSDArrayElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArrayElement.h; sourceTree = "<group>"; };
+		42F2A0111C73AD3C00B6E395 /* BSDArrayElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArrayElement.m; sourceTree = "<group>"; };
+		42F2A0121C73AD3C00B6E395 /* BSDArrayEnumerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArrayEnumerate.h; sourceTree = "<group>"; };
+		42F2A0131C73AD3C00B6E395 /* BSDArrayEnumerate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArrayEnumerate.m; sourceTree = "<group>"; };
+		42F2A0141C73AD3C00B6E395 /* BSDArrayFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArrayFilter.h; sourceTree = "<group>"; };
+		42F2A0151C73AD3C00B6E395 /* BSDArrayFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArrayFilter.m; sourceTree = "<group>"; };
+		42F2A0161C73AD3C00B6E395 /* BSDArrayLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArrayLength.h; sourceTree = "<group>"; };
+		42F2A0171C73AD3C00B6E395 /* BSDArrayLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArrayLength.m; sourceTree = "<group>"; };
+		42F2A0181C73AD3C00B6E395 /* BSDArrayNormalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArrayNormalize.h; sourceTree = "<group>"; };
+		42F2A0191C73AD3C00B6E395 /* BSDArrayNormalize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArrayNormalize.m; sourceTree = "<group>"; };
+		42F2A01A1C73AD3C00B6E395 /* BSDArrayPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArrayPack.h; sourceTree = "<group>"; };
+		42F2A01B1C73AD3C00B6E395 /* BSDArrayPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArrayPack.m; sourceTree = "<group>"; };
+		42F2A01C1C73AD3C00B6E395 /* BSDArrayPrepend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArrayPrepend.h; sourceTree = "<group>"; };
+		42F2A01D1C73AD3C00B6E395 /* BSDArrayPrepend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArrayPrepend.m; sourceTree = "<group>"; };
+		42F2A01E1C73AD3C00B6E395 /* BSDArraySerialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArraySerialize.h; sourceTree = "<group>"; };
+		42F2A01F1C73AD3C00B6E395 /* BSDArraySerialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArraySerialize.m; sourceTree = "<group>"; };
+		42F2A0201C73AD3C00B6E395 /* BSDArraySort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArraySort.h; sourceTree = "<group>"; };
+		42F2A0211C73AD3C00B6E395 /* BSDArraySort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArraySort.m; sourceTree = "<group>"; };
+		42F2A0221C73AD3C00B6E395 /* BSDSplitArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDSplitArray.h; sourceTree = "<group>"; };
+		42F2A0231C73AD3C00B6E395 /* BSDSplitArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDSplitArray.m; sourceTree = "<group>"; };
+		42F2A0311C73ADB500B6E395 /* BSDPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDPTest.h; sourceTree = "<group>"; };
+		42F2A0321C73ADB500B6E395 /* BSDPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDPTest.m; sourceTree = "<group>"; };
+		42F2A0351C73ADFB00B6E395 /* BSDBasicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDBasicAnimation.h; sourceTree = "<group>"; };
+		42F2A0361C73ADFB00B6E395 /* BSDBasicAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDBasicAnimation.m; sourceTree = "<group>"; };
+		42F2A0371C73ADFB00B6E395 /* BSDColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDColor.h; sourceTree = "<group>"; };
+		42F2A0381C73ADFB00B6E395 /* BSDColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDColor.m; sourceTree = "<group>"; };
+		42F2A0391C73ADFB00B6E395 /* BSDFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDFont.h; sourceTree = "<group>"; };
+		42F2A03A1C73ADFB00B6E395 /* BSDFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDFont.m; sourceTree = "<group>"; };
+		42F2A03B1C73ADFB00B6E395 /* BSDImageBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDImageBlur.h; sourceTree = "<group>"; };
+		42F2A03C1C73ADFB00B6E395 /* BSDImageBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDImageBlur.m; sourceTree = "<group>"; };
+		42F2A03D1C73ADFB00B6E395 /* BSDImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDImageView.h; sourceTree = "<group>"; };
+		42F2A03E1C73ADFB00B6E395 /* BSDImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDImageView.m; sourceTree = "<group>"; };
+		42F2A03F1C73ADFB00B6E395 /* BSDLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDLabel.h; sourceTree = "<group>"; };
+		42F2A0401C73ADFB00B6E395 /* BSDLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDLabel.m; sourceTree = "<group>"; };
+		42F2A0411C73ADFB00B6E395 /* BSDLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDLayer.h; sourceTree = "<group>"; };
+		42F2A0421C73ADFB00B6E395 /* BSDLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDLayer.m; sourceTree = "<group>"; };
+		42F2A0431C73ADFB00B6E395 /* BSDVideoStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDVideoStream.h; sourceTree = "<group>"; };
+		42F2A0441C73ADFB00B6E395 /* BSDVideoStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDVideoStream.m; sourceTree = "<group>"; };
+		42F2A0451C73ADFB00B6E395 /* BSDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDView.h; sourceTree = "<group>"; };
+		42F2A0461C73ADFB00B6E395 /* BSDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDView.m; sourceTree = "<group>"; };
+		42F2A0511C73AE8700B6E395 /* BSDBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDBuffer.h; sourceTree = "<group>"; };
+		42F2A0521C73AE8700B6E395 /* BSDBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDBuffer.m; sourceTree = "<group>"; };
+		42F2A0531C73AE8700B6E395 /* BSDSpeedLimit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDSpeedLimit.h; sourceTree = "<group>"; };
+		42F2A0541C73AE8700B6E395 /* BSDSpeedLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDSpeedLimit.m; sourceTree = "<group>"; };
+		42F2A0551C73AE8700B6E395 /* BSDTestVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDTestVariable.h; sourceTree = "<group>"; };
+		42F2A0561C73AE8700B6E395 /* BSDTestVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDTestVariable.m; sourceTree = "<group>"; };
+		42F2A0571C73AE8700B6E395 /* BSDValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDValue.h; sourceTree = "<group>"; };
+		42F2A0581C73AE8700B6E395 /* BSDValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDValue.m; sourceTree = "<group>"; };
+		42F2A0591C73AE8700B6E395 /* BSDVelocity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDVelocity.h; sourceTree = "<group>"; };
+		42F2A05A1C73AE8700B6E395 /* BSDVelocity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDVelocity.m; sourceTree = "<group>"; };
+		42F2A0611C73AEBF00B6E395 /* BSDGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDGenerator.h; sourceTree = "<group>"; };
+		42F2A0621C73AEBF00B6E395 /* BSDGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDGenerator.m; sourceTree = "<group>"; };
+		42F2A0631C73AEBF00B6E395 /* BSDMotionGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDMotionGenerator.h; sourceTree = "<group>"; };
+		42F2A0641C73AEBF00B6E395 /* BSDMotionGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDMotionGenerator.m; sourceTree = "<group>"; };
+		42F2A0661C73AEBF00B6E395 /* BSDTouchGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDTouchGenerator.h; sourceTree = "<group>"; };
+		42F2A0671C73AEBF00B6E395 /* BSDTouchGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDTouchGenerator.m; sourceTree = "<group>"; };
+		42F2A06B1C73AF4C00B6E395 /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		42F2A06C1C73AF4C00B6E395 /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
 		F202D82B198EDD2500603073 /* BSDNumberObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDNumberObjects.h; sourceTree = "<group>"; };
-		F21B7A97198F1B5800433676 /* BSDArrayEnumerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSDArrayEnumerate.h; path = ../BSDArrayEnumerate.h; sourceTree = "<group>"; };
-		F21B7A98198F1B5800433676 /* BSDArrayEnumerate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSDArrayEnumerate.m; path = ../BSDArrayEnumerate.m; sourceTree = "<group>"; };
 		F243691E197499DF00512371 /* BSDPatchExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSDPatchExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2436921197499DF00512371 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F2436923197499DF00512371 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -146,32 +213,12 @@
 		F243694B197499DF00512371 /* BSDPatchExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSDPatchExampleTests-Info.plist"; sourceTree = "<group>"; };
 		F243694D197499DF00512371 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F243694F197499DF00512371 /* BSDPatchExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSDPatchExampleTests.m; sourceTree = "<group>"; };
-		F2613656198ED7520018F361 /* BSDArraySerialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArraySerialize.h; sourceTree = "<group>"; };
-		F2613657198ED7520018F361 /* BSDArraySerialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArraySerialize.m; sourceTree = "<group>"; };
-		F2613658198ED7520018F361 /* BSDArrayElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArrayElement.h; sourceTree = "<group>"; };
-		F2613659198ED7520018F361 /* BSDArrayElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArrayElement.m; sourceTree = "<group>"; };
-		F261365A198ED7520018F361 /* BSDArrayFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArrayFilter.h; sourceTree = "<group>"; };
-		F261365B198ED7520018F361 /* BSDArrayFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArrayFilter.m; sourceTree = "<group>"; };
-		F261365C198ED7520018F361 /* BSDArrayLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArrayLength.h; sourceTree = "<group>"; };
-		F261365D198ED7520018F361 /* BSDArrayLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArrayLength.m; sourceTree = "<group>"; };
-		F261365E198ED7520018F361 /* BSDArrayPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArrayPack.h; sourceTree = "<group>"; };
-		F261365F198ED7520018F361 /* BSDArrayPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArrayPack.m; sourceTree = "<group>"; };
-		F2613660198ED7520018F361 /* BSDArrayNormalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArrayNormalize.h; sourceTree = "<group>"; };
-		F2613661198ED7520018F361 /* BSDArrayNormalize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArrayNormalize.m; sourceTree = "<group>"; };
-		F2613662198ED7520018F361 /* BSDArrayPrepend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArrayPrepend.h; sourceTree = "<group>"; };
-		F2613663198ED7520018F361 /* BSDArrayPrepend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArrayPrepend.m; sourceTree = "<group>"; };
-		F2613666198ED7520018F361 /* BSDArraySort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArraySort.h; sourceTree = "<group>"; };
-		F2613667198ED7520018F361 /* BSDArraySort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArraySort.m; sourceTree = "<group>"; };
-		F2613668198ED7520018F361 /* BSDSplitArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDSplitArray.h; sourceTree = "<group>"; };
-		F2613669198ED7520018F361 /* BSDSplitArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDSplitArray.m; sourceTree = "<group>"; };
 		F261366B198ED7520018F361 /* BSDBang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDBang.h; sourceTree = "<group>"; };
 		F261366C198ED7520018F361 /* BSDBang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDBang.m; sourceTree = "<group>"; };
 		F261366D198ED7520018F361 /* BSDBangBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDBangBox.h; sourceTree = "<group>"; };
 		F261366E198ED7520018F361 /* BSDBangBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDBangBox.m; sourceTree = "<group>"; };
 		F2613670198ED7520018F361 /* NSValue+BSD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+BSD.h"; sourceTree = "<group>"; };
 		F2613671198ED7520018F361 /* NSValue+BSD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+BSD.m"; sourceTree = "<group>"; };
-		F2613673198ED7520018F361 /* BSDArrayClassify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSDArrayClassify.h; path = ../Dictionaries/BSDArrayClassify.h; sourceTree = "<group>"; };
-		F2613674198ED7520018F361 /* BSDArrayClassify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSDArrayClassify.m; path = ../Dictionaries/BSDArrayClassify.m; sourceTree = "<group>"; };
 		F2613675198ED7520018F361 /* BSDDictionarySerialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDDictionarySerialize.h; sourceTree = "<group>"; };
 		F2613676198ED7520018F361 /* BSDDictionarySerialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDDictionarySerialize.m; sourceTree = "<group>"; };
 		F2613677198ED7520018F361 /* BSDMapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDMapObject.h; sourceTree = "<group>"; };
@@ -194,10 +241,6 @@
 		F2613689198ED7520018F361 /* BSDSwap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDSwap.m; sourceTree = "<group>"; };
 		F261368A198ED7520018F361 /* BSDValueBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDValueBox.h; sourceTree = "<group>"; };
 		F261368B198ED7520018F361 /* BSDValueBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDValueBox.m; sourceTree = "<group>"; };
-		F261368D198ED7520018F361 /* BSDGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDGenerator.h; sourceTree = "<group>"; };
-		F261368E198ED7520018F361 /* BSDGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDGenerator.m; sourceTree = "<group>"; };
-		F2613690198ED7520018F361 /* BSDTouchGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDTouchGenerator.h; sourceTree = "<group>"; };
-		F2613691198ED7520018F361 /* BSDTouchGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDTouchGenerator.m; sourceTree = "<group>"; };
 		F2613693198ED7520018F361 /* BSDCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDCreate.h; sourceTree = "<group>"; };
 		F2613694198ED7520018F361 /* BSDCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDCreate.m; sourceTree = "<group>"; };
 		F2613695198ED7520018F361 /* BSDObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDObject.h; sourceTree = "<group>"; };
@@ -274,41 +317,13 @@
 		F26136E4198ED7520018F361 /* BSDPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDPort.m; sourceTree = "<group>"; };
 		F26136E6198ED7520018F361 /* BSDFormatString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDFormatString.h; sourceTree = "<group>"; };
 		F26136E7198ED7520018F361 /* BSDFormatString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDFormatString.m; sourceTree = "<group>"; };
-		F26136E9198ED7520018F361 /* BSDColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSDColor.h; path = UI/BSDColor.h; sourceTree = "<group>"; };
-		F26136EA198ED7520018F361 /* BSDColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSDColor.m; path = UI/BSDColor.m; sourceTree = "<group>"; };
-		F26136EB198ED7520018F361 /* BSDFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSDFont.h; path = UI/BSDFont.h; sourceTree = "<group>"; };
-		F26136EC198ED7520018F361 /* BSDFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSDFont.m; path = UI/BSDFont.m; sourceTree = "<group>"; };
-		F26136ED198ED7520018F361 /* BSDLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDLabel.h; sourceTree = "<group>"; };
-		F26136EE198ED7520018F361 /* BSDLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDLabel.m; sourceTree = "<group>"; };
-		F26136F1198ED7520018F361 /* BSDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDView.h; sourceTree = "<group>"; };
-		F26136F2198ED7520018F361 /* BSDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDView.m; sourceTree = "<group>"; };
-		F26136F4198ED7520018F361 /* BSDBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDBuffer.h; sourceTree = "<group>"; };
-		F26136F5198ED7520018F361 /* BSDBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDBuffer.m; sourceTree = "<group>"; };
-		F26136F6198ED7520018F361 /* BSDPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSDPTest.h; path = ../../Utility/BSDPTest.h; sourceTree = "<group>"; };
-		F26136F7198ED7520018F361 /* BSDPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSDPTest.m; path = ../../Utility/BSDPTest.m; sourceTree = "<group>"; };
-		F26136F8198ED7520018F361 /* BSDTestVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDTestVariable.h; sourceTree = "<group>"; };
-		F26136F9198ED7520018F361 /* BSDTestVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDTestVariable.m; sourceTree = "<group>"; };
 		F267F20A198F632B0077773F /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		F267F20C198F63EB0077773F /* BSDMotionGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDMotionGenerator.h; sourceTree = "<group>"; };
-		F267F20D198F63EB0077773F /* BSDMotionGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDMotionGenerator.m; sourceTree = "<group>"; };
-		F267F20F198F66AC0077773F /* BSDVelocity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDVelocity.h; sourceTree = "<group>"; };
-		F267F210198F66AC0077773F /* BSDVelocity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDVelocity.m; sourceTree = "<group>"; };
 		F267F212198F71190077773F /* BSDPoint3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDPoint3D.h; sourceTree = "<group>"; };
 		F267F213198F71190077773F /* BSDPoint3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDPoint3D.m; sourceTree = "<group>"; };
 		F2832CFF197B782F00DD2E73 /* BSDEstimatedPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDEstimatedPointView.h; sourceTree = "<group>"; };
 		F2832D00197B782F00DD2E73 /* BSDEstimatedPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDEstimatedPointView.m; sourceTree = "<group>"; };
-		F28579DF19919CAC00F139B7 /* BSDLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDLayer.h; sourceTree = "<group>"; };
-		F28579E019919CAC00F139B7 /* BSDLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDLayer.m; sourceTree = "<group>"; };
 		F2AFEFBA197B401D00461AE9 /* BSDReferencePointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDReferencePointView.h; sourceTree = "<group>"; };
 		F2AFEFBB197B401D00461AE9 /* BSDReferencePointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDReferencePointView.m; sourceTree = "<group>"; };
-		F2B4D047199B1A9D00EB94AC /* BSDVideoStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDVideoStream.h; sourceTree = "<group>"; };
-		F2B4D048199B1A9D00EB94AC /* BSDVideoStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDVideoStream.m; sourceTree = "<group>"; };
-		F2CCA5B91991C4FA0067C35A /* BSDBasicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDBasicAnimation.h; sourceTree = "<group>"; };
-		F2CCA5BA1991C4FA0067C35A /* BSDBasicAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDBasicAnimation.m; sourceTree = "<group>"; };
-		F2CCA5BC1991CAE60067C35A /* BSDArrayAccum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDArrayAccum.h; sourceTree = "<group>"; };
-		F2CCA5BD1991CAE60067C35A /* BSDArrayAccum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDArrayAccum.m; sourceTree = "<group>"; };
-		F2CCA5BF1991E0FB0067C35A /* BSDSpeedLimit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDSpeedLimit.h; sourceTree = "<group>"; };
-		F2CCA5C01991E0FB0067C35A /* BSDSpeedLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDSpeedLimit.m; sourceTree = "<group>"; };
 		F2CCA5C21991ECEA0067C35A /* BSDSin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDSin.h; sourceTree = "<group>"; };
 		F2CCA5C31991ECEA0067C35A /* BSDSin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDSin.m; sourceTree = "<group>"; };
 		F2CCA5C51991ED8B0067C35A /* BSDCos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDCos.h; sourceTree = "<group>"; };
@@ -348,13 +363,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42F2A0091C73AD3C00B6E395 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				42F2A00A1C73AD3C00B6E395 /* BSDArrayAccum.h */,
+				42F2A00B1C73AD3C00B6E395 /* BSDArrayAccum.m */,
+				42F2A00C1C73AD3C00B6E395 /* BSDArrayBox.h */,
+				42F2A00D1C73AD3C00B6E395 /* BSDArrayBox.m */,
+				42F2A00E1C73AD3C00B6E395 /* BSDArrayClassify.h */,
+				42F2A00F1C73AD3C00B6E395 /* BSDArrayClassify.m */,
+				42F2A0101C73AD3C00B6E395 /* BSDArrayElement.h */,
+				42F2A0111C73AD3C00B6E395 /* BSDArrayElement.m */,
+				42F2A0121C73AD3C00B6E395 /* BSDArrayEnumerate.h */,
+				42F2A0131C73AD3C00B6E395 /* BSDArrayEnumerate.m */,
+				42F2A0141C73AD3C00B6E395 /* BSDArrayFilter.h */,
+				42F2A0151C73AD3C00B6E395 /* BSDArrayFilter.m */,
+				42F2A0161C73AD3C00B6E395 /* BSDArrayLength.h */,
+				42F2A0171C73AD3C00B6E395 /* BSDArrayLength.m */,
+				42F2A0181C73AD3C00B6E395 /* BSDArrayNormalize.h */,
+				42F2A0191C73AD3C00B6E395 /* BSDArrayNormalize.m */,
+				42F2A01A1C73AD3C00B6E395 /* BSDArrayPack.h */,
+				42F2A01B1C73AD3C00B6E395 /* BSDArrayPack.m */,
+				42F2A01C1C73AD3C00B6E395 /* BSDArrayPrepend.h */,
+				42F2A01D1C73AD3C00B6E395 /* BSDArrayPrepend.m */,
+				42F2A01E1C73AD3C00B6E395 /* BSDArraySerialize.h */,
+				42F2A01F1C73AD3C00B6E395 /* BSDArraySerialize.m */,
+				42F2A0201C73AD3C00B6E395 /* BSDArraySort.h */,
+				42F2A0211C73AD3C00B6E395 /* BSDArraySort.m */,
+				42F2A0221C73AD3C00B6E395 /* BSDSplitArray.h */,
+				42F2A0231C73AD3C00B6E395 /* BSDSplitArray.m */,
+			);
+			path = Arrays;
+			sourceTree = "<group>";
+		};
+		42F2A0341C73ADFB00B6E395 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				42F2A0351C73ADFB00B6E395 /* BSDBasicAnimation.h */,
+				42F2A0361C73ADFB00B6E395 /* BSDBasicAnimation.m */,
+				42F2A0371C73ADFB00B6E395 /* BSDColor.h */,
+				42F2A0381C73ADFB00B6E395 /* BSDColor.m */,
+				42F2A0391C73ADFB00B6E395 /* BSDFont.h */,
+				42F2A03A1C73ADFB00B6E395 /* BSDFont.m */,
+				42F2A03B1C73ADFB00B6E395 /* BSDImageBlur.h */,
+				42F2A03C1C73ADFB00B6E395 /* BSDImageBlur.m */,
+				42F2A03D1C73ADFB00B6E395 /* BSDImageView.h */,
+				42F2A03E1C73ADFB00B6E395 /* BSDImageView.m */,
+				42F2A03F1C73ADFB00B6E395 /* BSDLabel.h */,
+				42F2A0401C73ADFB00B6E395 /* BSDLabel.m */,
+				42F2A0411C73ADFB00B6E395 /* BSDLayer.h */,
+				42F2A0421C73ADFB00B6E395 /* BSDLayer.m */,
+				42F2A0431C73ADFB00B6E395 /* BSDVideoStream.h */,
+				42F2A0441C73ADFB00B6E395 /* BSDVideoStream.m */,
+				42F2A0451C73ADFB00B6E395 /* BSDView.h */,
+				42F2A0461C73ADFB00B6E395 /* BSDView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		42F2A0501C73AE8700B6E395 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				42F2A0511C73AE8700B6E395 /* BSDBuffer.h */,
+				42F2A0521C73AE8700B6E395 /* BSDBuffer.m */,
+				42F2A0531C73AE8700B6E395 /* BSDSpeedLimit.h */,
+				42F2A0541C73AE8700B6E395 /* BSDSpeedLimit.m */,
+				42F2A0551C73AE8700B6E395 /* BSDTestVariable.h */,
+				42F2A0561C73AE8700B6E395 /* BSDTestVariable.m */,
+				42F2A0571C73AE8700B6E395 /* BSDValue.h */,
+				42F2A0581C73AE8700B6E395 /* BSDValue.m */,
+				42F2A0591C73AE8700B6E395 /* BSDVelocity.h */,
+				42F2A05A1C73AE8700B6E395 /* BSDVelocity.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		42F2A0601C73AEBF00B6E395 /* Generators */ = {
+			isa = PBXGroup;
+			children = (
+				42F2A0611C73AEBF00B6E395 /* BSDGenerator.h */,
+				42F2A0621C73AEBF00B6E395 /* BSDGenerator.m */,
+				42F2A0631C73AEBF00B6E395 /* BSDMotionGenerator.h */,
+				42F2A0641C73AEBF00B6E395 /* BSDMotionGenerator.m */,
+				42F2A0651C73AEBF00B6E395 /* Touches */,
+			);
+			path = Generators;
+			sourceTree = "<group>";
+		};
+		42F2A0651C73AEBF00B6E395 /* Touches */ = {
+			isa = PBXGroup;
+			children = (
+				42F2A0661C73AEBF00B6E395 /* BSDTouchGenerator.h */,
+				42F2A0671C73AEBF00B6E395 /* BSDTouchGenerator.m */,
+			);
+			path = Touches;
+			sourceTree = "<group>";
+		};
 		F21B7A96198F074F00433676 /* TO DO */ = {
 			isa = PBXGroup;
 			children = (
-				F26136E9198ED7520018F361 /* BSDColor.h */,
-				F26136EA198ED7520018F361 /* BSDColor.m */,
-				F26136EB198ED7520018F361 /* BSDFont.h */,
-				F26136EC198ED7520018F361 /* BSDFont.m */,
 			);
 			name = "TO DO";
 			sourceTree = "<group>";
@@ -433,6 +540,8 @@
 		F2613632198ED2F80018F361 /* Example Project */ = {
 			isa = PBXGroup;
 			children = (
+				42F2A06B1C73AF4C00B6E395 /* UIImageEffects.h */,
+				42F2A06C1C73AF4C00B6E395 /* UIImageEffects.m */,
 				F2436930197499DF00512371 /* BSDAppDelegate.h */,
 				F2436931197499DF00512371 /* BSDAppDelegate.m */,
 				F2436933197499DF00512371 /* Main_iPhone.storyboard */,
@@ -441,8 +550,6 @@
 				F243693A197499DF00512371 /* BSDViewController.m */,
 				F2D8E6BC198F53EC00216BC5 /* BSDExample.h */,
 				F2D8E6BD198F53EC00216BC5 /* BSDExample.m */,
-				F267F20C198F63EB0077773F /* BSDMotionGenerator.h */,
-				F267F20D198F63EB0077773F /* BSDMotionGenerator.m */,
 				F2D3D524197CA386008B37C2 /* BSDExamplePatch.h */,
 				F2D3D525197CA386008B37C2 /* BSDExamplePatch.m */,
 				F2D3D51B197C736B008B37C2 /* BSDEstimatedPointLabel.h */,
@@ -459,53 +566,20 @@
 			isa = PBXGroup;
 			children = (
 				F21B7A96198F074F00433676 /* TO DO */,
-				F26136F3198ED7520018F361 /* Utility */,
+				42F2A0501C73AE8700B6E395 /* Utility */,
+				42F2A0091C73AD3C00B6E395 /* Arrays */,
 				F261366A198ED7520018F361 /* Bang */,
-				F2613653198ED7520018F361 /* Arrays */,
 				F261366F198ED7520018F361 /* Class Categories */,
 				F2613679198ED7520018F361 /* Flow Control */,
 				F2613692198ED7520018F361 /* Main */,
 				F26136DE198ED7520018F361 /* Ports */,
 				F2613699198ED7520018F361 /* Numbers */,
 				F26136E5198ED7520018F361 /* Strings */,
+				42F2A0601C73AEBF00B6E395 /* Generators */,
 				F2613672198ED7520018F361 /* Dictionaries */,
-				F261368C198ED7520018F361 /* Generators */,
-				F26136E8198ED7520018F361 /* UI */,
-				F2B4D047199B1A9D00EB94AC /* BSDVideoStream.h */,
-				F2B4D048199B1A9D00EB94AC /* BSDVideoStream.m */,
+				42F2A0341C73ADFB00B6E395 /* UI */,
 			);
 			path = BSDPatch;
-			sourceTree = "<group>";
-		};
-		F2613653198ED7520018F361 /* Arrays */ = {
-			isa = PBXGroup;
-			children = (
-				F2613673198ED7520018F361 /* BSDArrayClassify.h */,
-				F2613674198ED7520018F361 /* BSDArrayClassify.m */,
-				F2613656198ED7520018F361 /* BSDArraySerialize.h */,
-				F2613657198ED7520018F361 /* BSDArraySerialize.m */,
-				F2613658198ED7520018F361 /* BSDArrayElement.h */,
-				F2613659198ED7520018F361 /* BSDArrayElement.m */,
-				F261365A198ED7520018F361 /* BSDArrayFilter.h */,
-				F261365B198ED7520018F361 /* BSDArrayFilter.m */,
-				F261365C198ED7520018F361 /* BSDArrayLength.h */,
-				F261365D198ED7520018F361 /* BSDArrayLength.m */,
-				F2613666198ED7520018F361 /* BSDArraySort.h */,
-				F2613667198ED7520018F361 /* BSDArraySort.m */,
-				F2613668198ED7520018F361 /* BSDSplitArray.h */,
-				F2613669198ED7520018F361 /* BSDSplitArray.m */,
-				F261365E198ED7520018F361 /* BSDArrayPack.h */,
-				F261365F198ED7520018F361 /* BSDArrayPack.m */,
-				F2613660198ED7520018F361 /* BSDArrayNormalize.h */,
-				F2613661198ED7520018F361 /* BSDArrayNormalize.m */,
-				F2613662198ED7520018F361 /* BSDArrayPrepend.h */,
-				F2613663198ED7520018F361 /* BSDArrayPrepend.m */,
-				F21B7A97198F1B5800433676 /* BSDArrayEnumerate.h */,
-				F21B7A98198F1B5800433676 /* BSDArrayEnumerate.m */,
-				F2CCA5BC1991CAE60067C35A /* BSDArrayAccum.h */,
-				F2CCA5BD1991CAE60067C35A /* BSDArrayAccum.m */,
-			);
-			path = Arrays;
 			sourceTree = "<group>";
 		};
 		F261366A198ED7520018F361 /* Bang */ = {
@@ -562,25 +636,6 @@
 				F261368B198ED7520018F361 /* BSDValueBox.m */,
 			);
 			path = "Flow Control";
-			sourceTree = "<group>";
-		};
-		F261368C198ED7520018F361 /* Generators */ = {
-			isa = PBXGroup;
-			children = (
-				F261368D198ED7520018F361 /* BSDGenerator.h */,
-				F261368E198ED7520018F361 /* BSDGenerator.m */,
-				F261368F198ED7520018F361 /* Touches */,
-			);
-			path = Generators;
-			sourceTree = "<group>";
-		};
-		F261368F198ED7520018F361 /* Touches */ = {
-			isa = PBXGroup;
-			children = (
-				F2613690198ED7520018F361 /* BSDTouchGenerator.h */,
-				F2613691198ED7520018F361 /* BSDTouchGenerator.m */,
-			);
-			path = Touches;
 			sourceTree = "<group>";
 		};
 		F2613692198ED7520018F361 /* Main */ = {
@@ -701,10 +756,10 @@
 				F26136D0198ED7520018F361 /* BSDAverage.m */,
 				F26136D1198ED7520018F361 /* BSDMedian.h */,
 				F26136D2198ED7520018F361 /* BSDMedian.m */,
+				42F2A0311C73ADB500B6E395 /* BSDPTest.h */,
+				42F2A0321C73ADB500B6E395 /* BSDPTest.m */,
 				F26136D3198ED7520018F361 /* BSDStdDev.h */,
 				F26136D4198ED7520018F361 /* BSDStdDev.m */,
-				F26136F6198ED7520018F361 /* BSDPTest.h */,
-				F26136F7198ED7520018F361 /* BSDPTest.m */,
 			);
 			path = Stats;
 			sourceTree = "<group>";
@@ -744,36 +799,6 @@
 				F26136E7198ED7520018F361 /* BSDFormatString.m */,
 			);
 			path = Strings;
-			sourceTree = "<group>";
-		};
-		F26136E8198ED7520018F361 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				F26136ED198ED7520018F361 /* BSDLabel.h */,
-				F26136EE198ED7520018F361 /* BSDLabel.m */,
-				F26136F1198ED7520018F361 /* BSDView.h */,
-				F26136F2198ED7520018F361 /* BSDView.m */,
-				F28579DF19919CAC00F139B7 /* BSDLayer.h */,
-				F28579E019919CAC00F139B7 /* BSDLayer.m */,
-				F2CCA5B91991C4FA0067C35A /* BSDBasicAnimation.h */,
-				F2CCA5BA1991C4FA0067C35A /* BSDBasicAnimation.m */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		F26136F3198ED7520018F361 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				F26136F4198ED7520018F361 /* BSDBuffer.h */,
-				F26136F5198ED7520018F361 /* BSDBuffer.m */,
-				F26136F8198ED7520018F361 /* BSDTestVariable.h */,
-				F26136F9198ED7520018F361 /* BSDTestVariable.m */,
-				F267F20F198F66AC0077773F /* BSDVelocity.h */,
-				F267F210198F66AC0077773F /* BSDVelocity.m */,
-				F2CCA5BF1991E0FB0067C35A /* BSDSpeedLimit.h */,
-				F2CCA5C01991E0FB0067C35A /* BSDSpeedLimit.m */,
-			);
-			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -875,24 +900,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2CCA5BB1991C4FA0067C35A /* BSDBasicAnimation.m in Sources */,
 				F261372C198ED7520018F361 /* BSDPoint2D.m in Sources */,
+				42F2A04E1C73ADFB00B6E395 /* BSDVideoStream.m in Sources */,
+				42F2A02D1C73AD3C00B6E395 /* BSDArrayPrepend.m in Sources */,
 				F2613723198ED7520018F361 /* BSDEqualLess.m in Sources */,
-				F2613741198ED7520018F361 /* BSDPTest.m in Sources */,
+				42F2A04D1C73ADFB00B6E395 /* BSDLayer.m in Sources */,
 				F2613738198ED7520018F361 /* BSDOutlet.m in Sources */,
-				F261373F198ED7520018F361 /* BSDView.m in Sources */,
 				F2613705198ED7520018F361 /* BSDBang.m in Sources */,
 				F261370B198ED7520018F361 /* BSDChange.m in Sources */,
+				42F2A0261C73AD3C00B6E395 /* BSDArrayClassify.m in Sources */,
 				F2613735198ED7520018F361 /* BSDClipHard.m in Sources */,
 				F261370C198ED7520018F361 /* BSDCounter.m in Sources */,
 				F2613724198ED7520018F361 /* BSDGreater.m in Sources */,
 				F2613706198ED7520018F361 /* BSDBangBox.m in Sources */,
+				42F2A0471C73ADFB00B6E395 /* BSDBasicAnimation.m in Sources */,
 				F261371A198ED7520018F361 /* BSDDivide.m in Sources */,
+				42F2A06D1C73AF4C00B6E395 /* UIImageEffects.m in Sources */,
 				F2D8E6BE198F53EC00216BC5 /* BSDExample.m in Sources */,
-				F26136FC198ED7520018F361 /* BSDArrayElement.m in Sources */,
-				F2CCA5C11991E0FB0067C35A /* BSDSpeedLimit.m in Sources */,
 				F2613732198ED7520018F361 /* BSDStdDev.m in Sources */,
 				F261371F198ED7520018F361 /* BSDReciprocal.m in Sources */,
+				42F2A0281C73AD3C00B6E395 /* BSDArrayEnumerate.m in Sources */,
 				F2613737198ED7520018F361 /* BSDInlet.m in Sources */,
 				F2613731198ED7520018F361 /* BSDMedian.m in Sources */,
 				F2613722198ED7520018F361 /* BSDEqualGreater.m in Sources */,
@@ -900,71 +927,74 @@
 				F2832D01197B782F00DD2E73 /* BSDEstimatedPointView.m in Sources */,
 				F2613710198ED7520018F361 /* BSDSequence.m in Sources */,
 				F2613730198ED7520018F361 /* BSDAverage.m in Sources */,
-				F2613701198ED7520018F361 /* BSDArrayPrepend.m in Sources */,
 				F261372F198ED7520018F361 /* BSDSplitPoint.m in Sources */,
+				42F2A0681C73AEBF00B6E395 /* BSDGenerator.m in Sources */,
+				42F2A02A1C73AD3C00B6E395 /* BSDArrayLength.m in Sources */,
 				F261372D198ED7520018F361 /* BSDRect.m in Sources */,
+				42F2A04A1C73ADFB00B6E395 /* BSDImageBlur.m in Sources */,
 				F261371C198ED7520018F361 /* BSDMod.m in Sources */,
 				F2613707198ED7520018F361 /* NSValue+BSD.m in Sources */,
 				F267F214198F71190077773F /* BSDPoint3D.m in Sources */,
 				F243693B197499DF00512371 /* BSDViewController.m in Sources */,
 				F2613719198ED7520018F361 /* BSDAdd.m in Sources */,
+				42F2A0331C73ADB500B6E395 /* BSDPTest.m in Sources */,
 				F2613728198ED7520018F361 /* BSDDistance2D.m in Sources */,
 				F2613709198ED7520018F361 /* BSDDictionarySerialize.m in Sources */,
+				42F2A05D1C73AE8700B6E395 /* BSDTestVariable.m in Sources */,
 				F261372B198ED7520018F361 /* BSDIntersect2CirclesHelper.m in Sources */,
 				F2613721198ED7520018F361 /* BSDEqual.m in Sources */,
-				F2CCA5BE1991CAE60067C35A /* BSDArrayAccum.m in Sources */,
-				F261373B198ED7520018F361 /* BSDColor.m in Sources */,
 				F261371B198ED7520018F361 /* BSDNaturalLog.m in Sources */,
 				F2D3D51D197C736B008B37C2 /* BSDEstimatedPointLabel.m in Sources */,
 				F261371D198ED7520018F361 /* BSDMultiply.m in Sources */,
 				F261370D198ED7520018F361 /* BSDAddKey.m in Sources */,
 				F261371E198ED7520018F361 /* BSDExponent.m in Sources */,
+				42F2A02E1C73AD3C00B6E395 /* BSDArraySerialize.m in Sources */,
+				42F2A04F1C73ADFB00B6E395 /* BSDView.m in Sources */,
+				42F2A0251C73AD3C00B6E395 /* BSDArrayBox.m in Sources */,
 				F261372A198ED7520018F361 /* BSDIntersect2Circles.m in Sources */,
+				42F2A05E1C73AE8700B6E395 /* BSDValue.m in Sources */,
 				F2613733198ED7520018F361 /* BSDAccum.m in Sources */,
 				F2613711198ED7520018F361 /* BSDSpigot.m in Sources */,
-				F267F20E198F63EB0077773F /* BSDMotionGenerator.m in Sources */,
-				F21B7A99198F1B5800433676 /* BSDArrayEnumerate.m in Sources */,
-				F2613714198ED7520018F361 /* BSDGenerator.m in Sources */,
+				42F2A0271C73AD3C00B6E395 /* BSDArrayElement.m in Sources */,
+				42F2A05F1C73AE8700B6E395 /* BSDVelocity.m in Sources */,
+				42F2A0691C73AEBF00B6E395 /* BSDMotionGenerator.m in Sources */,
 				F261370F198ED7520018F361 /* BSDSelect.m in Sources */,
-				F2613708198ED7520018F361 /* BSDArrayClassify.m in Sources */,
-				F26136FE198ED7520018F361 /* BSDArrayLength.m in Sources */,
-				F261373D198ED7520018F361 /* BSDLabel.m in Sources */,
 				F2613713198ED7520018F361 /* BSDValueBox.m in Sources */,
-				F28579E119919CAC00F139B7 /* BSDLayer.m in Sources */,
+				42F2A0301C73AD3C00B6E395 /* BSDSplitArray.m in Sources */,
 				F261372E198ED7520018F361 /* BSDRectSplit.m in Sources */,
-				F26136FD198ED7520018F361 /* BSDArrayFilter.m in Sources */,
 				F2CCA5C71991ED8B0067C35A /* BSDCos.m in Sources */,
 				F2AFEFBC197B401D00461AE9 /* BSDReferencePointView.m in Sources */,
 				F2613718198ED7520018F361 /* BSDAbs.m in Sources */,
 				F2613725198ED7520018F361 /* BSDLess.m in Sources */,
-				F26136FF198ED7520018F361 /* BSDArrayPack.m in Sources */,
 				F2613739198ED7520018F361 /* BSDPort.m in Sources */,
+				42F2A0491C73ADFB00B6E395 /* BSDFont.m in Sources */,
 				F261370A198ED7520018F361 /* BSDMapObject.m in Sources */,
 				F2CCA5C41991ECEA0067C35A /* BSDSin.m in Sources */,
-				F2613703198ED7520018F361 /* BSDArraySort.m in Sources */,
-				F2613715198ED7520018F361 /* BSDTouchGenerator.m in Sources */,
-				F267F211198F66AC0077773F /* BSDVelocity.m in Sources */,
-				F2613700198ED7520018F361 /* BSDArrayNormalize.m in Sources */,
-				F261373C198ED7520018F361 /* BSDFont.m in Sources */,
+				42F2A02C1C73AD3C00B6E395 /* BSDArrayPack.m in Sources */,
 				F2613720198ED7520018F361 /* BSDSubtract.m in Sources */,
+				42F2A02B1C73AD3C00B6E395 /* BSDArrayNormalize.m in Sources */,
 				F2613712198ED7520018F361 /* BSDSwap.m in Sources */,
-				F2B4D049199B1A9D00EB94AC /* BSDVideoStream.m in Sources */,
 				F2613729198ED7520018F361 /* BSDDistanceFrom2DPoint.m in Sources */,
 				F2613726198ED7520018F361 /* BSDMax.m in Sources */,
+				42F2A02F1C73AD3C00B6E395 /* BSDArraySort.m in Sources */,
 				F2613734198ED7520018F361 /* BSDClipSoft.m in Sources */,
 				F2436932197499DF00512371 /* BSDAppDelegate.m in Sources */,
+				42F2A05B1C73AE8700B6E395 /* BSDBuffer.m in Sources */,
+				42F2A06A1C73AEBF00B6E395 /* BSDTouchGenerator.m in Sources */,
 				F261373A198ED7520018F361 /* BSDFormatString.m in Sources */,
+				42F2A0291C73AD3C00B6E395 /* BSDArrayFilter.m in Sources */,
 				F243692E197499DF00512371 /* main.m in Sources */,
-				F2613704198ED7520018F361 /* BSDSplitArray.m in Sources */,
-				F26136FB198ED7520018F361 /* BSDArraySerialize.m in Sources */,
 				F2613717198ED7520018F361 /* BSDObject.m in Sources */,
+				42F2A04B1C73ADFB00B6E395 /* BSDImageView.m in Sources */,
 				F2613727198ED7520018F361 /* BSDMin.m in Sources */,
 				F261370E198ED7520018F361 /* BSDRoute.m in Sources */,
 				F2D3D526197CA386008B37C2 /* BSDExamplePatch.m in Sources */,
-				F2613742198ED7520018F361 /* BSDTestVariable.m in Sources */,
 				F2613716198ED7520018F361 /* BSDCreate.m in Sources */,
+				42F2A05C1C73AE8700B6E395 /* BSDSpeedLimit.m in Sources */,
+				42F2A04C1C73ADFB00B6E395 /* BSDLabel.m in Sources */,
 				F2613736198ED7520018F361 /* BSDInt.m in Sources */,
-				F2613740198ED7520018F361 /* BSDBuffer.m in Sources */,
+				42F2A0481C73ADFB00B6E395 /* BSDColor.m in Sources */,
+				42F2A0241C73AD3C00B6E395 /* BSDArrayAccum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

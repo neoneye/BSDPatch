@@ -40,10 +40,10 @@
 
     if (image && self.parameters) {
         
-        NSNumber *blurRadius = self.parameters[@"radius"];
-        self.mainOutlet.value = [HBVImageBlur applyBlurType:HBVImageBlurTypevImage
-                                                    onImage:image withRadius:blurRadius.floatValue];
-        
+//        NSNumber *blurRadius = self.parameters[@"radius"];
+//        self.mainOutlet.value = [HBVImageBlur applyBlurType:HBVImageBlurTypevImage
+//                                                    onImage:image withRadius:blurRadius.floatValue];
+		
     }
     
     

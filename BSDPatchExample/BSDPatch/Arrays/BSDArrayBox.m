@@ -20,11 +20,11 @@
 
 - (void)calculateOutput
 {
-    id hot = self.hotInlet.value;
-    NSArray *array = self.coldInlet.value;
-    if ([self isBang:hot] && array) {
-        self.mainOutlet.value = array;
-    }
+//    id hot = self.hotInlet.value;
+//    NSArray *array = self.coldInlet.value;
+//    if ([self isBang:hot] && array) {
+//        self.mainOutlet.value = array;
+//    }
 }
 
 - (void)reset
